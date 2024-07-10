@@ -9,6 +9,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/rampal111/CokeAndgoARConnectSDK.git"
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.author       = { 'Ram Pal' => 'ram.pal@maxerience.com' }
+  s.owner = { 'anuj.garg2291@gmail.com' => 'Anuj Garg' }
   spec.source       = { :git => 'https://github.com/rampal111/CokeAndgoARConnectSDK.git', :tag => spec.version.to_s }
   spec.ios.deployment_target  = '12.0'
   spec.swift_versions = ['5.0']
