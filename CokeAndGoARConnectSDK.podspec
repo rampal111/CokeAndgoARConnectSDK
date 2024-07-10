@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.author       = { 'Ram Pal' => 'ram.pal@maxereince.com' }
   s.source       = { :git => 'https://github.com/rampal111/CokeAndgoARConnectSDK.git', :tag => s.version.to_s }
   s.platform     = :ios, '12.0'
-  s.source_files  = 'CokeAndGoARConnectSDK/Classes/**/*.{h,m,swift}'
+  s.source_files  = 'CokeAndGoARConnectSDK/Classes/**/*.{h,md,plist,swiftmodule,modulemap}'
 end
