@@ -1,0 +1,11 @@
+framework module CokeAndGoARConnectSDK {
+  umbrella header "CokeAndGoARConnectSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module CokeAndGoARConnectSDK.Swift {
+  header "CokeAndGoARConnectSDK-Swift.h"
+  requires objc
+}
